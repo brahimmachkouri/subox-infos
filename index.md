@@ -1,7 +1,7 @@
 
 ![SuBox](https://github.com/brahimmachkouri/subox-infos/blob/master/images/subox.png)
 
-Scotch Box is a pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time.
+SuBox is a pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time. 
 
 ## License 
 
@@ -24,3 +24,5 @@ $ git clone https://github.com/brahimmachkouri/subox my-project
 $ cd my-project
 $ vagrant up
 ```
+
+Inspired by Scotch Box. ;)
