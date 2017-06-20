@@ -25,4 +25,6 @@ $ cd my-project
 $ vagrant up
 ```
 
+Then visit [http://192.168.33.11](http://192.168.33.11 "SuBox HomePage")
+
 Inspired by Scotch Box. ;)
