@@ -24,7 +24,7 @@ MIT License
 * PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client support, [PsySH](http://psysh.org/)
 * MariaDB 10.1, Sqlite3
 * Git, Go lang in the box
-* PHPMyAdmin, PHPUnit, [composer](https://getcomposer.org/doc/01-basic-usage.md), [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/)
+* PHPMyAdmin, PHPUnit, [composer](https://getcomposer.org/doc/01-basic-usage.md), [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/), [drush](http://www.drush.org/en/master/usage/)
 * Email catching with [MailHoge](https://github.com/mailhog/MailHog)
 * [Ansible](https://www.ansible.com) in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=40&order=-download_count,name) to customize your box
 
@@ -32,6 +32,10 @@ MIT License
 
 * Yarn, Node.js, nvm, gulp, grunt, bower, webpack, yo... 
 > Even though these are packaged into the Vagrant box, we always recommend running node and any packages from your local machine and not within the box. This is strictly a performance thing. They only exist as helpers if you don't/can't set those up.
+
+## Development Stuff
+
+Just put your files (PHP, HTML, JS...) in the **public** directory 
 
 ## Frameworks Ready
 
@@ -41,6 +45,9 @@ MIT License
 
 If you use the laravel or symfony tool, you must do that to have a functionnal install :
 ```
+vagrant ssh
+cd /var/www
+laravel new blog # or : symfony new blog
 rm -rf README.md .gitignore public/ # Removing conflicting files
 mv blog/* blog/.[^.]* . # Put Laravel/Symfony files in right spot
 rm -rf blog
@@ -49,14 +56,8 @@ rm -rf blog
 ## CMS Ready
 
 * Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `wp core download --locale=fr_FR`
-* Drupal via [drush](http://www.drush.org/en/master/usage/)
-* October CMS via composer : `composer create-project october/october myproject`
-* Magento
-* Prestashop
-
-## Development Stuff
-
-Just put your files (PHP, HTML, JS...) in the **public** directory 
+* October CMS via composer : `composer create-project october/october public`
+* Prestashop : `git clone https://github.com/PrestaShop/PrestaShop.git public && cd public && composer install`
 
 ## MariaDB Stuff
 
