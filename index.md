@@ -1,5 +1,5 @@
 
-![SuBox](https://github.com/brahimmachkouri/subox-infos/blob/master/images/subox.png)
+![SuBox](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/subox.png)
 
 SuBox is a pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time. 
 
