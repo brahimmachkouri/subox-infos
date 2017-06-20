@@ -57,7 +57,13 @@ rm -rf blog
 
 * Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `wp core download --locale=fr_FR`
 * October CMS via composer : `composer create-project october/october public`
-* Prestashop : `git clone https://github.com/PrestaShop/PrestaShop.git public && cd public && composer install`
+* Prestashop : 
+
+```
+git clone https://github.com/PrestaShop/PrestaShop.git public
+cd public
+composer install
+```
 
 ## MariaDB Stuff
 
