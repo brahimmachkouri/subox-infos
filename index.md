@@ -29,9 +29,13 @@ MIT License
 * Email catching with [MailHoge](https://github.com/mailhog/MailHog)
 * Ansible in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=40&order=-download_count,name) to customize your box
 
-## Frameworks ready
+## Frameworks Ready
 
 * Laravel, Symfony, Code Igniter...
+
+## CMS Ready
+
+* Wordpress, Drupal, October CMS, Magento, Prestashop
 
 ## Development Stuff
 
