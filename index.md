@@ -37,7 +37,7 @@ MIT License
 
 ## MariaDB Stuff
 
-|           |            |
+| PHPMyAdmin URL | http://192.168.33.11/phpmyadmin |
 |-----------|------------|
 | Hostname  | localhost  |
 | Username  | root       |
