@@ -27,7 +27,7 @@ MIT License
 * PHPMyAdmin, PHPUnit, composer, wp-cli
 * Beta : Yarn, Node.js, nvm, gulp, grunt, bower, webpack, yo 
 * Email catching with [MailHoge](https://github.com/mailhog/MailHog)
-* Ansible in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=20&users=geerlingguy) to customize your box
+* Ansible in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=10&order=-download_count,name) to customize your box
 
 ## Frameworks ready
 
