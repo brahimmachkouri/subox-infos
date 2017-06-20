@@ -51,13 +51,13 @@ MIT License
 
 ## Development Stuff
 
-Just put your files (PHP, HTML, JS...) in the **public** directory 
+Just put your files (PHP, HTML, JS...) in the **public** directory (/var/www/public)
 
 ## Frameworks Ready
 
 * Laravel via laravel command line tool : `laravel new blog`
 * Symfony via symfony command line tool : `symfony new blog`
-* Code Igniter via composer : `composer create-project codeigniter/framework myproject`
+* Code Igniter via composer : `cd /var/www && composer create-project codeigniter/framework public`
 
 If you use the laravel or symfony tool, you must do that to have a functionnal install :
 ```
@@ -71,11 +71,12 @@ rm -rf blog
 
 ## CMS Ready
 
-* Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `wp core download --locale=fr_FR`
-* October CMS via composer : `composer create-project october/october public`
+* Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `cd /var/www/public && wp core download --locale=fr_FR`
+* October CMS via composer : `cd /var/www && composer create-project october/october public`
 * Prestashop : 
 
 ```
+cd /var/www
 git clone https://github.com/PrestaShop/PrestaShop.git public
 cd public
 composer install
