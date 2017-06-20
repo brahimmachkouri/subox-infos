@@ -1,8 +1,4 @@
 
-# SuBox
-
-Just a Dead-Simple Local LAMP Stack for Vagrant. 
-
 ![SuBox](https://github.com/brahimmachkouri/subox-infos/blob/master/images/subox.png)
 
 Scotch Box is a pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time.
