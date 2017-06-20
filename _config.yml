@@ -1,0 +1,8 @@
+title: Thesubmarine.github.io
+description: My Github Website
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
