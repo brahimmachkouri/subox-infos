@@ -28,6 +28,22 @@ MIT License
 * Email catching with [MailHoge](https://github.com/mailhog/MailHog)
 * [Ansible](https://www.ansible.com) in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=40&order=-download_count,name) to customize your box
 
+## Accounts Stuff
+
+| Username  | Password   |
+|-----------|------------|
+| vagrant   | vagrant    |
+| root      | root       |
+
+## MariaDB Stuff
+
+|           |            |
+|-----------|------------|
+| Hostname  | localhost  |
+| Username  | root       |
+| Password  | root       |
+| Database  | mabase     |
+
 ## Development Tools (Beta)
 
 * Yarn, Node.js, nvm, gulp, grunt, bower, webpack, yo... 
@@ -64,22 +80,6 @@ git clone https://github.com/PrestaShop/PrestaShop.git public
 cd public
 composer install
 ```
-
-## MariaDB Stuff
-
-|           |            |
-|-----------|------------|
-| Hostname  | localhost  |
-| Username  | root       |
-| Password  | root       |
-| Database  | mabase     |
-
-## Accounts Stuff
-
-| Username  | Password   |
-|-----------|------------|
-| vagrant   | vagrant    |
-| root      | root       |
 
 ## [MailHog](https://github.com/mailhog/MailHog) Stuff
 
