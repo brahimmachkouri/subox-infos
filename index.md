@@ -65,7 +65,13 @@ MIT License
 ![Public directory](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/public.png)
 
 * You can enter the box using ssh :
-`vagrant ssh`
+```
+vagrant ssh
+```
+Or :
+```
+ssh vagrant@192.168.33.11
+```
 
 ## Frameworks Ready
 
