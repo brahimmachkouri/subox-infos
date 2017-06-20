@@ -39,9 +39,16 @@ MIT License
 * Symfony via symfony command line tool : `symfony new blog`
 * Code Igniter via composer : `composer create-project codeigniter/framework myproject`
 
+If you use the laravel or symfony tool, you must do that to have a functionnal install :
+```
+rm -rf README.md .gitignore public/ # Removing conflicting files
+mv blog/* blog/.[^.]* . # Put Laravel/Symfony files in right spot
+rm -rf blog
+```
+
 ## CMS Ready
 
-* Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `wp core download`
+* Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `wp core download --locale=fr_FR`
 * Drupal via [drush](http://www.drush.org/en/master/usage/)
 * October CMS via composer : `composer create-project october/october myproject`
 * Magento
