@@ -51,7 +51,7 @@ MIT License
 
 ## Development Stuff
 
-Just put your files (PHP, HTML, JS...) in the **public** directory (/var/www/public)
+Just put your files (PHP, HTML, JS...) in the **public** directory (in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile)
 
 ## Frameworks Ready
 
