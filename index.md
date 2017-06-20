@@ -21,6 +21,7 @@ MIT License
 
 * Debian 9
 * Apache 2.4 (mod_proxy_fcgi activated)
+* SSH
 * PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client support, [PsySH](http://psysh.org/)
 * MariaDB 10.1, Sqlite3
 * Git, Go lang in the box
@@ -51,7 +52,12 @@ MIT License
 
 ## Development Stuff
 
-Just put your files (PHP, HTML, JS...) in the **public** directory (in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile)
+* Just put your files (PHP, HTML, JS...) in the **public** directory (in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile)
+
+![Public directory](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/public.png)
+
+* You can enter the box using ssh :
+`vagrant ssh`
 
 ## Frameworks Ready
 
