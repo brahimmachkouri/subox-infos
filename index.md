@@ -39,7 +39,6 @@ Just put your files (PHP, HTML, JS...) in the **public** directory
 | Username  | root       |
 | Password  | root       |
 | Database  | mabase     |
-|           |            |
 
 ## Accounts Stuff
 
