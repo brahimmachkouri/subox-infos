@@ -25,7 +25,7 @@ MIT License
 * Git, Go lang in the box
 * PHPMyAdmin, PHPUnit, composer, wp-cli
 * Beta : Yarn, Node.js, nvm, gulp, grunt, bower, webpack, yo 
-* Improved email catching with MailHog
+* Email catching with MailHog
 
 ## Development Stuff
 
