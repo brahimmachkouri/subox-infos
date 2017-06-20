@@ -20,7 +20,8 @@ MIT License
 ## Features
 
 * Debian 9
-* PHP 7.0, PHP errors On, MSSQL client support
+* Apache 2.4 (mod_proxy_fcgi activated)
+* PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client support
 * MariaDB 10.1, Sqlite3
 * Git, Go lang in the box
 * PHPMyAdmin, PHPUnit, composer, wp-cli
