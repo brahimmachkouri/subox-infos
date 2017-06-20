@@ -21,7 +21,7 @@ MIT License
 
 * Debian 9
 * Apache 2.4 (mod_proxy_fcgi activated)
-* PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client support
+* PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client support, [PsySH](http://psysh.org/)
 * MariaDB 10.1, Sqlite3
 * Git, Go lang in the box
 * PHPMyAdmin, PHPUnit, composer, wp-cli
@@ -31,11 +31,17 @@ MIT License
 
 ## Frameworks Ready
 
-* Laravel, Symfony, Code Igniter...
+* Laravel (via laravel command line tool)
+* Symfony (via symfony command line tool)
+* Code Igniter (via composer : composer create-project codeigniter/framework myproject)
 
 ## CMS Ready
 
-* Wordpress, Drupal, October CMS, Magento, Prestashop
+* Wordpress via [wp-cli](http://wp-cli.org)
+* Drupal via [drush](http://www.drush.org/en/master)
+* October CMS
+* Magento
+* Prestashop
 
 ## Development Stuff
 
