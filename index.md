@@ -3,7 +3,14 @@
 
 SuBox is a (BETA) pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time. 
 
-## Quick tutorial
+## Get Started
+
+It's easy :
+
+1. Download and Install [Vagrant](https://www.vagrantup.com/downloads.html)
+2. Download and Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+Then, in a terminal, just clone the repo and run vagrant up :
 
 ```
 $ git clone https://github.com/brahimmachkouri/subox my-project
@@ -22,7 +29,7 @@ MIT License
 * Debian 9
 * Apache 2.4 (mod_proxy_fcgi activated)
 * SSH
-* PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client support, [PsySH](http://psysh.org/)
+* PHP 7.0 (php7.0-fpm), PHP errors On, MSSQL client ready, [PsySH](http://psysh.org/)
 * MariaDB 10.1, Sqlite3
 * Git, Go lang in the box
 * PHPMyAdmin, PHPUnit, [composer](https://getcomposer.org/doc/01-basic-usage.md), [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/), [drush](http://www.drush.org/en/master/usage/)
