@@ -25,7 +25,8 @@ MIT License
 * Git, Go lang in the box
 * PHPMyAdmin, PHPUnit, composer, wp-cli
 * Beta : Yarn, Node.js, nvm, gulp, grunt, bower, webpack, yo 
-* Email catching with MailHog
+* Email catching with MailHoge 
+* Ansible in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1) to customize your box
 
 ## Development Stuff
 
