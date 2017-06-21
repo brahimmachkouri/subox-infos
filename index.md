@@ -77,7 +77,7 @@ ssh vagrant@192.168.33.11
 
 * Laravel via laravel command line tool : `laravel new blog`
 * Symfony via symfony command line tool : `symfony new blog`
-* Code Igniter via composer : `cd /var/www && composer create-project codeigniter/framework public`
+* Code Igniter via composer : `cd /var/www && rm -fr public && composer create-project codeigniter/framework public`
 
 If you use the laravel or symfony tool, you must do that to have a functionnal install :
 ```
@@ -92,11 +92,12 @@ rm -rf blog
 ## CMS Ready
 
 * Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `cd /var/www/public && wp core download --locale=fr_FR`
-* October CMS via composer : `cd /var/www && composer create-project october/october public`
+* October CMS via composer : `cd /var/www && rm -fr public && composer create-project october/october public`
 * Prestashop : 
 
 ```
 cd /var/www
+rm -fr public
 git clone https://github.com/PrestaShop/PrestaShop.git public
 cd public
 composer install
