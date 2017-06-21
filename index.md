@@ -91,8 +91,17 @@ rm -rf blog
 
 ## CMS Ready
 
-* Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : `cd /var/www/public && wp core download --locale=fr_FR`
-* October CMS via composer : `cd /var/www && rm -fr public && composer create-project october/october public`
+* Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : 
+```
+cd /var/www/public
+wp core download --locale=fr_FR
+```
+* October CMS via composer : 
+```
+cd /var/www
+rm -fr public
+composer create-project october/october public
+```
 * Prestashop : 
 
 ```
