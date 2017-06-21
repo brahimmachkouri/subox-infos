@@ -75,21 +75,36 @@ ssh vagrant@192.168.33.11
 
 ## Frameworks Ready
 
-* Laravel via laravel command line tool : `laravel new blog`
-* Symfony via symfony command line tool : `symfony new blog`
-* Code Igniter via composer : `cd /var/www && rm -fr public && composer create-project codeigniter/framework public`
+You have to connect to the box via ssh to use the following tools.
 
-If you use the laravel or symfony tool, you must do that to have a functionnal install :
+* Laravel via laravel command line tool : 
 ```
-vagrant ssh
 cd /var/www
-laravel new blog # or : symfony new blog
+laravel new blog 
 rm -rf README.md .gitignore public/ # Removing conflicting files
-mv blog/* blog/.[^.]* . # Put Laravel/Symfony files in right spot
+mv blog/* blog/.[^.]* . # Put Laravel files in right spot
 rm -rf blog
 ```
 
+* Symfony via symfony command line tool : 
+```
+cd /var/www
+symfony new blog
+rm -rf README.md .gitignore public/ # Removing conflicting files
+mv blog/* blog/.[^.]* . # Put Symfony files in right spot
+rm -rf blog
+```
+
+* Code Igniter via composer : 
+```
+cd /var/www
+rm -fr public
+composer create-project codeigniter/framework public
+```
+
 ## CMS Ready
+
+You have to connect to the box via ssh to use the following tools.
 
 * Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : 
 ```
