@@ -1,6 +1,6 @@
 ![SuBoxes](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/vagrant-virtualbox-debian.png)
 
-![SuBox](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/subox.png)
+![SuBox](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/subox2.png)
 
 SuBox is a (BETA) pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time. 
 
@@ -62,7 +62,7 @@ MIT License
 
 * Just put your files (PHP, HTML, JS...) in the **public** directory (in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile)
 
-![Public directory](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/public.png)
+![Public directory](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/public2.png)
 
 * You can enter the box using ssh :
 ```
