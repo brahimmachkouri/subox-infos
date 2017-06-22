@@ -36,6 +36,7 @@ MIT License
 * PHPMyAdmin, PHPUnit, [composer](https://getcomposer.org/doc/01-basic-usage.md), [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/), [drush](http://www.drush.org/en/master/usage/)
 * Email catching with [MailHoge](https://github.com/mailhog/MailHog) : your mails are captured and displayed in a web interface
 * [Ansible](https://www.ansible.com) in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=40&order=-download_count,name) to customize your box
+* Virtualbox additions installed
 
 ## Accounts Stuff
 
