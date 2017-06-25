@@ -132,13 +132,12 @@ composer install
 
 ## Supervision Stuff
 
-Monit : http://192.168.33.11:2812
-Munin :
+* Monit : http://192.168.33.11:2812
 
 ## Admin Panels
 
-Webmin : https://192.168.33.11:10000
-Ajenti : http://192.168.33.11:8000
+* Webmin : https://192.168.33.11:10000
+* Ajenti : http://192.168.33.11:8000
 
 ## [MailHog](https://github.com/mailhog/MailHog) Stuff
 
