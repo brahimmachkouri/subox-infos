@@ -91,11 +91,9 @@ install_laravel
 install_symfony
 ```
 
-* Code Igniter via composer : 
+* Code Igniter : 
 ```
-cd /var/www
-rm -fr public
-composer create-project codeigniter/framework public
+install_codeigniter
 ```
 
 ## CMS Ready
