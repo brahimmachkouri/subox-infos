@@ -81,12 +81,12 @@ ssh vagrant@192.168.33.11
 
 You have to connect to the box via ssh to use the following tools.
 
-* Laravel via laravel command line tool : 
+* Laravel : 
 ```
 install_laravel
 ```
 
-* Symfony via symfony command line tool : 
+* Symfony : 
 ```
 install_symfony
 ```
