@@ -38,7 +38,7 @@ MIT License
 * [Ansible](https://www.ansible.com) in the box, so you can use [Ansible Galaxy](https://galaxy.ansible.com/list#/roles?page=1&page_size=40&order=-download_count,name) to customize your box
 * Virtualbox additions installed
 * supervision : [monit](https://mmonit.com/monit)
-* admin panels : [webmin](http://www.webmin.com), [virtualmin](https://www.virtualmin.com)
+* admin panels : [webmin](http://www.webmin.com)
 
 ## Accounts Stuff
 
@@ -137,7 +137,6 @@ composer install
 ## Admin Panels
 
 * Webmin : https://192.168.33.11:10000
-* Ajenti : http://192.168.33.11:8000
 
 ## [MailHog](https://github.com/mailhog/MailHog) Stuff
 
