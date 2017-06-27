@@ -81,6 +81,8 @@ ssh vagrant@192.168.33.11
 
 You have to connect to the box via ssh to use the following tools.
 
+The frameworks will be installed in /var/www/
+
 * Laravel : 
 ```
 install_laravel
@@ -98,27 +100,21 @@ install_codeigniter
 
 ## CMS Ready
 
-You have to connect to the box via ssh to use the following tools.
+You have to connect to the box via ssh to use the following tools.  
+The CMS will be installed in /var/www/
 
 * Wordpress via [wp-cli](https://make.wordpress.org/cli/handbook/quick-start/) : 
 ```
 cd /var/www/public
 wp core download --locale=fr_FR
 ```
-* October CMS via composer : 
+* October CMS : 
 ```
-cd /var/www
-rm -fr public
-composer create-project october/october public
+install_october
 ```
 * Prestashop : 
-
 ```
-cd /var/www
-rm -fr public
-git clone https://github.com/PrestaShop/PrestaShop.git public
-cd public
-composer install
+install_prestashop
 ```
 
 ## Supervision Stuff
