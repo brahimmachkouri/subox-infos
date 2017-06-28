@@ -118,8 +118,10 @@ install_october
 ```
 install_prestashop
 ```
-But I strongly advise to disable the shared folder if you want to work with Prestashop (as Virtualbox is known to have slow performance when shared folders are used) by commenting the following line in Vagrantfile :
-#config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]  
+But I strongly advise to disable the shared folder if you want to work with Prestashop (as Virtualbox is known to have slow performance when shared folders are used) by commenting the following line in Vagrantfile (just add a # in front of the line) :  
+```
+config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]  
+```
 And work via sftp (with Filezilla for example).
 
 
