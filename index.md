@@ -112,10 +112,6 @@ wp core download --locale=fr_FR
 ```
 install_october
 ```
-* Prestashop : 
-```
-install_prestashop
-```
 
 ## Supervision Stuff
 
