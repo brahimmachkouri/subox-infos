@@ -41,14 +41,14 @@ MIT License
 * supervision : [monit](https://mmonit.com/monit)
 * admin panels : [webmin](http://www.webmin.com)
 
-## Accounts Stuff
+## Accounts
 
 | Username  | Password   |
 |-----------|------------|
 | vagrant   | vagrant    |
 | root      | root       |
 
-## MariaDB Stuff
+## MariaDB
 
 | PHPMyAdmin URL | http://192.168.33.11/phpmyadmin |
 |-----------|------------|
@@ -62,7 +62,7 @@ MIT License
 * Yarn, Node.js, nvm, gulp, grunt, bower, webpack, yo... 
 > Even though these are packaged into the Vagrant box, we always recommend running node and any packages from your local machine and not within the box. This is strictly a performance thing. They only exist as helpers if you don't/can't set those up.
 
-## Development Stuff
+## Development
 
 * Just put your files (PHP, HTML, JS...) in the **public** directory (in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile)
 
@@ -125,7 +125,7 @@ config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=
 And work via sftp (with Filezilla for example).
 
 
-## Supervision Stuff
+## Supervision 
 
 * Monit : http://192.168.33.11:2812
 
@@ -133,7 +133,7 @@ And work via sftp (with Filezilla for example).
 
 * Webmin : https://192.168.33.11:10000
 
-## [MailHog](https://github.com/mailhog/MailHog) Stuff
+## [MailHog](https://github.com/mailhog/MailHog) 
 
 Just connect to [http://192.168.33.11:8025](http://192.168.33.11:8025)
 
