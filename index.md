@@ -129,6 +129,10 @@ And work via sftp (with Filezilla for example).
 
 * Monit : http://192.168.33.11:2812
 
+| Username  | Password   |
+|-----------|------------|
+| admin     | monit      |
+
 ## Admin Panels
 
 * Webmin : https://192.168.33.11:10000
