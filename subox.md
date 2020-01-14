@@ -1,10 +1,14 @@
+---
+description: >-
+  SuBox is a (BETA) pre-configured Vagrant Box with a full array of features to
+  get you up and running with Vagrant in no time.
+---
+
 # SuBox
 
 ![SuBoxes](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/vagrant-virtualbox-debian.png)
 
 ![SuBox](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/subox3.png)
-
-SuBox is a \(BETA\) pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time.
 
 ## Get Started <a id="get-started"></a>
 
@@ -127,6 +131,4 @@ You have to connect to the box via ssh to use the following tools.
 Just connect to [http://192.168.33.11:8025](http://192.168.33.11:8025/)
 
 Inspired by Scotch Box. 
-
-**Have fun.**
 
