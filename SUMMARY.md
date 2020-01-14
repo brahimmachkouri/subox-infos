@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Accueil](README.md)
 * [SuBox](subox.md)
 

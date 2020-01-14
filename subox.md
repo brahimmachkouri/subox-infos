@@ -65,7 +65,7 @@ MIT License
 
 ## Development <a id="development"></a>
 
-* Just put your files \(PHP, HTML, JS…\) in the **public** directory \(in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile\)
+* Just put your files \(PHP, HTML, JS…\) in the **public** directory \(in the box : /var/www/public, or in the **public** directory that you can see next to the Vagrantfile\) :
 
 ![Public directory](https://raw.githubusercontent.com/brahimmachkouri/subox-infos/master/images/public4.png)
 
@@ -126,5 +126,7 @@ You have to connect to the box via ssh to use the following tools.
 
 Just connect to [http://192.168.33.11:8025](http://192.168.33.11:8025/)
 
-Inspired by Scotch Box. ;\)
+Inspired by Scotch Box. 
+
+**Have fun.**
 
